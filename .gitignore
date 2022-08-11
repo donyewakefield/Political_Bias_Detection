@@ -1,0 +1,6 @@
+.venv/
+distilbert_v1/
+distilbert_v1.zip
+.vscode/
+__pycache__/
+.ipynb_checkpoints/

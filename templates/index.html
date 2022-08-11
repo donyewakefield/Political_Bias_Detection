@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="static/style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+    <div class="header">
+      <h1 class = "center">Bias Tracker</h1>
+    </div>
+
+  <div class="header2">
+      <h2>Test your article</h2>
+    </div>
+
+  <div class = "container">
+      <div class = "switch">
+        <div class = "text" onclick="tab1();"> Enter Text </div>
+        <div class = "url" onclick="tab2();"> Enter URL </div>
+      </div>
+  
+      <div class = "outer">
+        <form id="form" method="post" action="data/">
+          <div id = "page">
+            <label>Text Input</label>
+            <div class = "element"> 
+              <input type="text" placeholder="Enter text" name="ENTER_TEXT">
+            </div>
+              <input id="btn" type="submit" value="Submit">
+          </div>
+  
+           <div id = "page">
+            <label>URL Input</label>
+            <div class = "element"> 
+              <input type = "url" placeholder="Enter url" name="ENTER_URL">
+            </div>
+              <input type="submit" id="btn" value="Submit">
+          </div>      
+        </form>
+      </div>
+    </div>
+
+
+  <div class = "para">
+    <p>We are now more polarized than ever. With the rise in filter bubbles (created largely by recommendation systems), people interact with different viewpoints less and less frequently. </p>
+    <p> <em>What does this really mean?</em>  Many are less willing to engage and collaborate with the other side, thus preventing solutions from being reached. Indeed, the frequency of government gridlock is at an all-time high. Consider the Covid-19 pandemic: government gridlock led to <em>far</em> slower responses, the cost of which was human lives. </p>
+<p>Polarization is a <em>vicious</em> cycle. Act now. Check your bias.</p>
+  </div>
+
+    
+
+  <br><br>
+  
+    
+
+  <section class="container3">
+      <img src = "https://media.wbur.org/wp/2021/09/GettyImages-1230454306-1.jpg">
+
+      <img src = "https://www.furman.edu/news/wp-content/uploads/sites/218/2022/07/iStock-1192309925-divided-capitol-cropped.jpg" >
+
+      <img src = "https://newhampshirebulletin.com/wp-content/uploads/2022/04/partisanship-1024x683.jpg" > 
+
+      <img src = "https://media.istockphoto.com/vectors/-vector-id693669272?k=20&m=693669272&s=612x612&w=0&h=8D5N7RHeN7dvZbuDzS4RxyX2ATkMJqaY3wvlcX-l_20=" >
+
+      
+    </section>
+
+<script src="static/script.js"></script>
+</body>
+
+</html>
+  
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
