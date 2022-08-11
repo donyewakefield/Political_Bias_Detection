@@ -20,17 +20,20 @@ import http
 import requests
 import bert_model
 
+
+# Below implemented in `bert_model.py`
+#-------------------------
 # extract weights
-if not os.path.exists("C:\\Users\\Donyewakefield\\Desktop\\FMakers_WebApp\\distilbert_v1.zip"):
-  zipped_model = requests.get("https://docs.google.com/uc?export=download&id=1E_ZC-Zmke2HrxeZu24yMTgqn-gQ3cI2K&confirm=t&uuid=68b827df-d38d-4f34-a034-385b88b67a08")
-
-  model_name = "distilbert_v1"
-  with open(f"{model_name}.zip", "wb") as zfp:
-      zfp.write(zipped_model.content)
-
-  with zipfile.ZipFile("C:\\Users\\Donyewakefield\\Desktop\\FMakers_WebApp\\distilbert_v1.zip") as zf:
-      os.mkdir("distilbert_v1")
-      zf.extractall("distilbert_v1")
+# if not os.path.exists("C:\\Users\\Donyewakefield\\Desktop\\FMakers_WebApp\\distilbert_v1.zip"):
+#   zipped_model = requests.get("https://docs.google.com/uc?export=download&id=1E_ZC-Zmke2HrxeZu24yMTgqn-gQ3cI2K&confirm=t&uuid=68b827df-d38d-4f34-a034-385b88b67a08")
+# 
+#   model_name = "distilbert_v1"
+#   with open(f"{model_name}.zip", "wb") as zfp:
+#       zfp.write(zipped_model.content)
+# 
+#   with zipfile.ZipFile("C:\\Users\\Donyewakefield\\Desktop\\FMakers_WebApp\\distilbert_v1.zip") as zf:
+#       os.mkdir("distilbert_v1")
+#       zf.extractall("distilbert_v1")
 
 
 # Get started on preprocessing 
@@ -66,6 +69,8 @@ if not os.path.exists("C:\\Users\\Donyewakefield\\Desktop\\FMakers_WebApp\\disti
 #   print(tf.nn.softmax(logits[0]))  # [democrat score, republican score, center score]
   
 # tf.keras.utils.set_random_seed(100)
+
+
 
 # get the BERT model
 bert = bert_model.get_model()
@@ -103,4 +108,7 @@ def data():
       # Return the predicted results to the user
         return render_template('submit.html', result = result, winner = winner_name)
 
+
+if __name__ == "__main__":
+    app.run()
 

@@ -13,12 +13,12 @@ html {
 
 .header {
   text-align: center;
-  margin: 100px; 
+  margin-bottom: 20px;
   
   background: #002a7c;
   color: white;
   font-size: 30px;
-  padding: 90px;
+  padding: 10px;
   
   border-radius: 4px;
   box-shadow: 0 0 15px rgb(0, 0, 0, 0.3);
@@ -38,8 +38,8 @@ html {
 
 .header2 {
   text-align: center;
-  margin-left: 500px;
-  margin-right: 500px; 
+  margin-left: 15%;
+  margin-right: 15%; 
   margin-bottom: 20px;
 
   background: #c30303;
@@ -62,7 +62,7 @@ html {
 .container {
   position: relative; 
   align-items: center;
-  padding: 80px 90px;
+  padding: 35px 90px;
   width: 500px;
   margin-right: auto;
   margin-left: auto;
