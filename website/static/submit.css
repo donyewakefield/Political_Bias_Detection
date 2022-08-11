@@ -1,3 +1,5 @@
+
+
 .header2 {
   font-family: 'Fira Sans Extra Condensed';
 
@@ -36,4 +38,34 @@
  /* dumb hack to get the "back to home" button look nice cause im lazy */
   text-decoration: none; 
   color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px; 
+  margin-left: 20%; 
+  margin-right: 20%;
+  font-size: 20px; 
+}
+
+
+.row-item {  
+  color: white;
+  font-family: 'Fira Sans Extra Condensed';
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.conservative {
+  background: #c30303;
+}
+
+.neutral {
+  background: #d4cdcd;  
+}
+
+.liberal {
+  background: #002a7c;
 }

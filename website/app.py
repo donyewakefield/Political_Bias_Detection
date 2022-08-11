@@ -105,6 +105,8 @@ def data():
           winner = result[2]
           winner_name = "This is a center article!"
 
+        result = list([round(i*100) for i in result])
+
       # Return the predicted results to the user
         return render_template('submit.html', result = result, winner = winner_name)
 
