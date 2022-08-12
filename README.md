@@ -2,13 +2,11 @@
 
 By the Nerdy Neurons (SureStart MIT FutureMakers 2022 Team 13)
 
----
+
 
 # Our Mission:
 
 In an increasingly polarized world, we aim to encourage interaction between various viewpoints and ideologies.
-
----
 
 # Here's how we do it:
 
@@ -38,10 +36,18 @@ python app.py
 We plan on implementing a browser extension which will improve the usability of our product. Furthermore, we plan on implementing an objectivity score so that users can have an understanding on if the media they are consuming is objective or subjective
 In the long term, we hope to automate updates to our dataset by implementing a crowdsourcing model. In addition, we aim to implement a recommendation system that suggests relevant content on the other side of the political spectrum, so they gain a more holistic understanding of the topic at hand.
 
----
-
 # Our Team:
 
 ![The Nerdy Neurons](https://docs.google.com/uc?export=download&id=1min006a_qcEcw7PrJApwK6vYJti24E-i)
 
-## Thanks to our mentors, Shwetha and Michalis, as well as the SureStart team for making this all possible.
+## Thanks to our mentors:
+
+## Shwetha Tinnium Raju
+
+<img src="https://docs.google.com/uc?export=download&id=18JOi8veL4OLi7cThmUSigKbZjtbebL7-" alt="Shwetha Tinnium Raju" width="300"/>
+
+## and Michalis Koumpanakis,
+
+<img src="https://docs.google.com/uc?export=download&id=1SAquhvcEcCUYSIERaDD1c-6_wSZgZvOR" alt="Michalis Koumpanakis" width="300">
+
+## as well as the SureStart team for making this all possible.
