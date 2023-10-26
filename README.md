@@ -10,6 +10,17 @@ In an increasingly polarized world, we aim to encourage interaction between vari
 
 # Here's how we do it:
 
+## Tools:
+### Languages
+* `Python`
+* `JavaScript`
+* `HTML/CSS`
+### Software
+* `Google Colab`
+* `PyCharm`
+* `Slack`
+
+
 ## The Model:
 
 We fine-tuned [HuggingFace's DistilBERT](https://huggingface.co/docs/transformers/model_doc/distilbert), a knowledge-distilled version of [Google's original BERT implementation](https://arxiv.org/abs/1810.04805), with a 3-class classifier with softmax activations for classification. It was trained for 50 epochs of 100 steps each (totalling 6 passes through our 2700-sample dataset) using the `Adam` optimizer (with a learning rate of `5e-5`) 
