@@ -1,4 +1,4 @@
-# PolitiParser
+# Political Bias Detector
 
 By the Nerdy Neurons (SureStart MIT FutureMakers 2022 Team 13)
 
@@ -11,11 +11,11 @@ In an increasingly polarized world, we aim to encourage interaction between vari
 # Here's how we do it:
 
 ## Tools:
-### Languages
+#### Languages
 * `Python`
 * `JavaScript`
 * `HTML/CSS`
-### Software
+#### Software
 * `Google Colab`
 * `PyCharm`
 * `Slack`
