@@ -30,6 +30,8 @@ After cloning the repository and installing dependencies, it can be run (for dev
 cd website
 python app.py
 ```
+![250968030-999076b9-8a70-461d-8571-a10bb2e9e3b2](https://github.com/donyewakefield/Political_Bias_Detection/assets/71467135/f120d29f-3210-43ce-b8bc-43f1b725d79e)
+
 
 ## The Future:
 
